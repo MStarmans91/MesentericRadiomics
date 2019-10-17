@@ -1,0 +1,11 @@
+Patient	Operated
+Patient-001	1
+Patient-002	1
+Patient-003	1
+Patient-004	1
+Patient-005	1
+Patient-006	0
+Patient-007	0
+Patient-008	0
+Patient-009	0
+Patient-010	0
