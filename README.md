@@ -1,17 +1,18 @@
 # MesentericRadiomics
-Script to compute features and fit radiomics models as done in the paper "Prediction of symptomatic
-mesenteric mass in patients with small intestinal neuroendocrine tumors using
-a CT radiomics approach." A. Blazevic, M. P. A. Starmans et al. 2019.
+Script to compute features and fit radiomics models as done in the paper
+"Prediction of symptomatic mesenteric mass in patients with small intestinal
+neuroendocrine tumors using CT based radiomics and systematic scoring."
+A. Blazevic & M. P. A. Starmans et al. 2020.
 
 ## Installation
-For the feature extraction, only the PREDICT package, version 2.1.3,
+For the feature extraction, only the PREDICT package, version 3.1.9,
 and the subsequent dependencies are required, which can be installed through pip:
 
-    pip install "PREDICT==2.1.3"
+    pip install "PREDICT==3.1.9"
 
-For the model optimization, additionally WORC, version 2.1.3, is required:
+For the model optimization, additionally WORC, version 3.3.1, is required:
 
-    pip install "WORC==2.1.3"
+    pip install "WORC==3.3.1"
 
 ## Usage
 The ExtractFeatures.py script can be used to extract all features. We provided
@@ -29,25 +30,4 @@ Using a larger image and/or mask may result in a longer computation time.
 Documentation for the model optimization is provided in the respective script.
 
 ## Known Issues
-
-### Pyradiomics
-The PyRadiomics package we use requires numpy in the installation, hence
-you may need to install numpy manually beforehand:
-
-    pip install "numpy==1.6.4"
-
-From version 2.2.0 and above, PyRadiomics removed a function and might throw
-this error:
-
-'''AttributeError: 'module' object has no attribute "RadiomicsFeaturesExtractor"'''
-
-This can be overcome by downgrading to version 2.1.2:
-
-    pip install "pyradiomics==2.1.2"
-
-### Missingpy
-Missingpy version 0.2.0 may throw an ascii error: in that case, manually
-remove and reinstall the package:
-
-    pip uninstall missingpy
-    pip install "missingpy==0.2.0"
+See the WORC FAQ: https://worc.readthedocs.io/en/v3.3.1/static/faq.html
