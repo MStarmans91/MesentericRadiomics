@@ -1,7 +1,8 @@
 # MesentericRadiomics
 Script to compute features and fit radiomics models as done in the paper
-"Prediction of symptomatic mesenteric mass in patients with small intestinal
-neuroendocrine tumors using CT based radiomics and systematic scoring."
+"Prediction of symptomatic metastatic mesenteric mass in patients with 
+small intestinal neuroendocrine tumors using CT based radiomics and 
+systematic clinical evaluation."
 A. Blazevic & M. P. A. Starmans et al. 2020.
 
 ## Installation
