@@ -31,4 +31,4 @@ Using a larger image and/or mask may result in a longer computation time.
 Documentation for the model optimization is provided in the respective script.
 
 ## Known Issues
-See the WORC FAQ: https://worc.readthedocs.io/en/v3.3.1/static/faq.html
+See the WORC FAQ: https://worc.readthedocs.io/en/v3.4.0/static/faq.html
