@@ -1,19 +1,19 @@
 # MesentericRadiomics
 Script to compute features and fit radiomics models as done in the paper
-"Prediction of symptomatic metastatic mesenteric mass in patients with 
-small intestinal neuroendocrine tumors using CT based radiomics and 
+"Prediction of symptomatic metastatic mesenteric mass in patients with
+small intestinal neuroendocrine tumors using CT based radiomics and
 systematic clinical evaluation."
-A. Blazevic & M. P. A. Starmans et al. 2020.
+A. Blazevic & M. P. A. Starmans et al. 2021.
 
 ## Installation
-For the feature extraction, only the PREDICT package, version 3.1.9,
+For the feature extraction, only the PREDICT package, version 3.1.13,
 and the subsequent dependencies are required, which can be installed through pip:
 
-    pip install "PREDICT==3.1.9"
+    pip install "PREDICT==3.1.13"
 
-For the model optimization, additionally WORC, version 3.3.1, is required:
+For the model optimization, additionally WORC, version 3.4.0, is required:
 
-    pip install "WORC==3.3.1"
+    pip install "WORC==3.4.0"
 
 ## Usage
 The ExtractFeatures.py script can be used to extract all features. We provided

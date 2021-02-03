@@ -5,14 +5,13 @@ from classes import switch
 
 
 def editconfig(config):
-    """Function to edit the WORC configuration for the DTF study."""
+    """Function to edit the WORC configuration for the Mesenteric Fibrosis study."""
 
     # No Normalization for CT
     config['Preprocessing']['Normalize'] = 'False'
 
-    # Changes to features extraction
+    # Only used for naming conventions
     config['ImageFeatures']['image_type'] = 'CT'
-    config['ImageFeatures']['vessel_radius'] = '0'  # tumors can be really small
 
     # Set label to predict
     config['Labels']['label_names'] = 'Operated'
@@ -62,7 +61,7 @@ config = editconfig(config)
 
 # NOTE: Since we now only use 10 "patients" in this example, we turn of the
 # resampling options. Do not do this for the full experiment.
-config['Resampling']['Use'] = 'False'
+config['Resampling']['Use'] = '0.0'
 
 # Append the sources to be used
 network.images_train.append(images)
