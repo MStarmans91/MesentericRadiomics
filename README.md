@@ -1,9 +1,10 @@
 # MesentericRadiomics
-Script to compute features and fit radiomics models as done in the paper
-"Prediction of symptomatic metastatic mesenteric mass in patients with
-small intestinal neuroendocrine tumors using CT based radiomics and
-systematic clinical evaluation."
-A. Blazevic & M. P. A. Starmans et al. 2021.
+Script to compute features and fit radiomics models as done in the following
+paper:
+
+``Blazevic, A., Starmans, M. P. A., Brabander, T., Dwarkasingh, R., van Gils, R., Hofland, J., Franssen, G. J., Feelders, R. A., Niessen, W. J., Klein, S., & de Herder, W. W. (2021). Predicting symptomatic mesenteric mass in neuroendocrine tumors using radiomics, Endocrine-Related Cancer, ERC-21-0064. Retrieved Jun 9, 2021, from https://erc.bioscientifica.com/view/journals/erc/aop/erc-21-0064/erc-21-0064.xml``
+
+Please cite the above paper when using parts of this code.
 
 ## Installation
 For the feature extraction, only the PREDICT package, version 3.1.13,
